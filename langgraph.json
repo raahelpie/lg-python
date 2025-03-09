@@ -1,0 +1,6 @@
+{
+    "dependencies": ["./src/lg_python/index.py"],
+    "graphs": {
+        "agent": "./src/lg_python/index.py:app"
+    }
+}

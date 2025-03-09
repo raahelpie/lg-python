@@ -1,0 +1,22 @@
+[project]
+name = "lg-python"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "raahelpie",email = "17131a05h5@gvpce.ac.in"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "langgraph (>=0.3.5,<0.4.0)",
+    "langchain-ollama (>=0.2.3,<0.3.0)",
+    "langgraph-cli[inmem] (>=0.1.75,<0.2.0)"
+]
+
+[tool.poetry]
+packages = [{include = "lg_python", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
